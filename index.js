@@ -150,7 +150,7 @@ const port = process.env.PORT || 3000;
 │   Star Us [*Here*](https://github.com/XENOVA-BOT/XENOVA-BOT/fork)!  
 ╰─🛠️ *Prefix:* \`${prefix}\`
 
-> _© MADE BY MR SHABAN_`;
+> _© MADE BY MR AHMAD_`;
     conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/cidt8r.jpg` }, caption: up });
   }
 });
