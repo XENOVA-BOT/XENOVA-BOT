@@ -20,7 +20,7 @@ cmd({
     await reply("```🔍 Checking for SHABAN-MD updates...```\n");  
       
     // Get latest commit from GitHub  
-    const { data: commitData } = await axios.get("https://api.github.com/repos/MRSHABAN40/TEST/commits/main");  
+    const { data: commitData } = await axios.get("https://api.github.com/repos/XENOVA-BOT/TEST/commits/main");  
     const latestCommitHash = commitData.sha;  
 
     // Get current commit hash  
@@ -33,14 +33,14 @@ cmd({
     }  
 
     if (latestCommitHash === currentHash) {  
-      return reply("```✅ Your SHABAN-MD bot is already up-to-date!```\n");  
+      return reply("```✅ Your XENOVA-BOT bot is already up-to-date!```\n");  
     }  
 
-    await reply("```SHABAN-MD Bot Updating...🚀```\n");  
+    await reply("```XENOVA-BOT Bot Updating...🚀```\n");  
       
     // Download latest code  
     const zipPath = path.join(__dirname, "latest.zip");  
-    const { data: zipData } = await axios.get("https://github.com/MRSHABAN40/TEST/archive/main.zip", { responseType: "arraybuffer" });  
+    const { data: zipData } = await axios.get("https://github.com/XENOVA-BOT/TEST/archive/main.zip", { responseType: "arraybuffer" });  
     fs.writeFileSync(zipPath, zipData);  
 
     await reply("```📦 Extracting the latest code...```\n");  
