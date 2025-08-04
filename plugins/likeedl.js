@@ -33,7 +33,7 @@ cmd({
     await conn.sendMessage(from, {
       video: { url: videoUrl },
       mimetype: "video/mp4",
-      caption: `📥 *Likee Downloaded SHABAN-MD*\n
+      caption: `📥 *Likee Downloaded Mᴜʜᴀᴍᴍᴀᴅ Aʜᴍᴇᴅ 𝕏 Aʙᴅᴜʟ Rᴀғᴀʏ*\n
       🎥 *Title:* ${data.BK9.title}\n
       📏 *Size:* Not available`
     }, { quoted: m });
