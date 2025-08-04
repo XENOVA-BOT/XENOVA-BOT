@@ -36,7 +36,7 @@ async (conn, mek, m) => {
 
         await conn.updateProfilePicture(botNumber, buffer);
 
-        m.reply('✅ *Bot ki profile picture full DP format mein set kar di gayi! SHABAN-MD*');
+        m.reply('✅ *Bot ki profile picture full DP format mein set kar di gayi! XENOVA-BOT*');
     } catch (err) {
         console.error(err);
         m.reply(`❌ *Error:* ${err.message}`);
