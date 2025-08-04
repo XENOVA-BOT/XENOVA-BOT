@@ -39,7 +39,7 @@ async (conn, mek, m, { from, body, args, isOwner, isMe, reply }) => {
             cnic = '❌ Data Not Found';
         }
 
-        const result = `❰ 𝑺𝑯𝑨𝑩𝑨𝑵-𝑴𝑫 ❱
+        const result = `❰ XENOVA-BOT❱
 ┃ 🧑‍💻 𝗡𝗮𝗺𝗲: *${name}*
 ┃ 📞 𝗠𝗼𝗯𝗶𝗹𝗲: *${mobile}*
 ┃ 🆔 𝗖𝗡𝗜𝗖: *${cnic}*
@@ -97,7 +97,7 @@ async (conn, mek, m, { from, body, args, isOwner, isMe, reply }) => {
             operator = '❌ Data Not Found';
         }
 
-        const result = `❰ 𝑺𝑯𝑨𝑩𝑨𝑵-𝑴𝑫 ❱
+        const result = `❰ XENOVA-BOT ❱
 ┃ 🧑‍💻 𝗡𝗮𝗺𝗲: *${name}*
 ┃ 📞 𝗠𝗼𝗯𝗶𝗹𝗲: *${mobile}*
 ┃ 🆔 𝗖𝗡𝗜𝗖: *${cnic}*
