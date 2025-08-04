@@ -25,7 +25,7 @@ async (conn, mek, m, { from, args, q, reply }) => {
 
         const { title, thumbnail, high } = data.data;
 
-        const caption = `🎬 *Facebook Video Downloader*\n\n📖 *Title:* ${title}\n\n🔰 *By SHABAN-MD*`;
+        const caption = `🎬 *Facebook Video Downloader*\n\n📖 *Title:* ${title}\n\n🔰 *By Mᴜʜᴀᴍᴍᴀᴅ Aʜᴍᴇᴅ 𝕏 Aʙᴅᴜʟ Rᴀғᴀʏ*`;
 
         await conn.sendMessage(from, {
             video: { url: high },
