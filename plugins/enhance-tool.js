@@ -74,7 +74,7 @@ cmd({
     await reply("🔄 Enhancing image quality...");
     await client.sendMessage(message.chat, {
       image: fs.readFileSync(outputPath),
-      caption: "✅ Image enhanced successfully! SHABAN-MD",
+      caption: "✅ Image enhanced successfully! Mᴜʜᴀᴍᴍᴀᴅ Aʜᴍᴇᴅ 𝕏 Aʙᴅᴜʟ Rᴀғᴀʏ",
     }, { quoted: message });
 
     // Clean up
