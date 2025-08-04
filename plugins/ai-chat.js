@@ -21,7 +21,7 @@ async (conn, mek, m, { from, args, q, reply, react }) => {
             return reply("AI failed to respond. Please try again later.");
         }
 
-        await reply(`🤖 *AI Response SHABAN-MD:*\n\n${data.result}`);
+        await reply(`🤖 *AI Response XENOVA-BOT:*\n\n${data.result}`);
         await react("✅");
     } catch (e) {
         console.error("Error in AI command:", e);
