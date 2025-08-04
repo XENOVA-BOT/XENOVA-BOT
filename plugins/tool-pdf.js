@@ -25,11 +25,11 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
             await conn.sendMessage(from, {
                 document: pdfData,
                 mimetype: 'application/pdf',
-                fileName: 'SHABAN-MD.pdf',
+                fileName: 'XENOVA-BOT.pdf',
                 caption: `
 *📄 PDF created successully!*
 
-> © Cʀᴇᴀᴛᴇᴅ Bʏ Sʜᴀʙᴀɴ Mᴅ`
+> © Mᴜʜᴀᴍᴍᴀᴅ Aʜᴍᴇᴅ 𝕏 Aʙᴅᴜʟ Rᴀғᴀʏ`
             }, { quoted: mek });
         });
 
