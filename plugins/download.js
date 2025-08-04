@@ -30,7 +30,7 @@ async (conn, mek, m, { from, q, reply }) => {
         const media = data.BK9[0];
         const isVideo = media.type === "video" || media.url.includes(".mp4");
 
-        const caption = `📷 *Instagram Media*\n\n👤 *By SHABAN-MD*\n🔗 *Source:* Instagram`;
+        const caption = `📷 *Instagram Media*\n\n👤 *By Mᴜʜᴀᴍᴍᴀᴅ Aʜᴍᴇᴅ 𝕏 Aʙᴅᴜʟ Rᴀғᴀʏ*\n🔗 *Source:* Instagram`;
 
         if (isVideo) {
             await conn.sendMessage(from, {
@@ -110,12 +110,12 @@ conn.ev.on("messages.upsert", async message => {
     if (userResponse === '1') {
       await conn.sendMessage(chatID, {
         'video': { 'url': downloadLinks.noWatermark },
-        'caption': "*Downloaded SHABAN-MD*"
+        'caption': "*Downloaded Mᴜʜᴀᴍᴍᴀᴅ Aʜᴍᴇᴅ 𝕏 Aʙᴅᴜʟ Rᴀғᴀʏ*"
       }, { 'quoted': receivedMessage });
     } else if (userResponse === '2') {
       await conn.sendMessage(chatID, {
         'video': { 'url': downloadLinks.withWatermark },
-        'caption': "*Downloaded SHABAN-MD*"
+        'caption': "*Downloaded Mᴜʜᴀᴍᴍᴀᴅ Aʜᴍᴇᴅ 𝕏 Aʙᴅᴜʟ Rᴀғᴀʏ*"
       }, { 'quoted': receivedMessage });
     } else if (userResponse === '3') {
       await conn.sendMessage(chatID, {
@@ -188,14 +188,14 @@ cmd({
           case "1":
             await conn.sendMessage(senderID, {
               video: { url: data.video.downloads[0].downloadUrl },
-              caption: "📥 *Downloaded by SHABAN-MD (SD)*"
+              caption: "📥 *Downloaded by Mᴜʜᴀᴍᴍᴀᴅ Aʜᴍᴇᴅ 𝕏 Aʙᴅᴜʟ Rᴀғᴀʏ (SD)*"
             }, { quoted: receivedMsg });
             break;
 
           case "2":
             await conn.sendMessage(senderID, {
               video: { url: data.video.downloads[1].downloadUrl },
-              caption: "📥 *Downloaded by SHABAN-MD (HD)*"
+              caption: "📥 *Downloaded by Mᴜʜᴀᴍᴍᴀᴅ Aʜᴍᴇᴅ 𝕏 Aʙᴅᴜʟ Rᴀғᴀʏ (HD)*"
             }, { quoted: receivedMsg });
             break;
 
@@ -269,14 +269,14 @@ conn.ev.on("messages.upsert", async (msgData) => {
       case "1":
         await conn.sendMessage(senderID, {
           video: { url: video1.url },
-          caption: "📥 *Downloaded SHABAN-MD*"
+          caption: "📥 *Downloaded Mᴜʜᴀᴍᴍᴀᴅ Aʜᴍᴇᴅ 𝕏 Aʙᴅᴜʟ Rᴀғᴀʏ*"
         }, { quoted: receivedMsg });
         break;
 
       case "2":
         await conn.sendMessage(senderID, {
           video: { url: video2.url },
-          caption: "📥 *Downloaded SHABAN-MD*"
+          caption: "📥 *Downloaded Mᴜʜᴀᴍᴍᴀᴅ Aʜᴍᴇᴅ 𝕏 Aʙᴅᴜʟ Rᴀғᴀʏ*"
         }, { quoted: receivedMsg });
         break;
 
@@ -370,7 +370,7 @@ cmd({
 ┃ 📅 *Updated On:* ${app.updated}
 ┃ 👨‍💻 *Developer:* ${app.developer.name}
 ╰━━━━━━━━━━━━━━━┈⊷
-🔗 *Powered By Mʀ-Sʜᴀʙᴀɴ*`;
+🔗 *Powered By Mᴜʜᴀᴍᴍᴀᴅ Aʜᴍᴇᴅ 𝕏 Aʙᴅᴜʟ Rᴀғᴀʏ*`;
 
     await conn.sendMessage(from, { react: { text: "⬆️", key: m.key } });
 
@@ -421,7 +421,7 @@ cmd({
         document: { url: downloadUrl },
         mimetype: response.data.result.mimetype,
         fileName: response.data.result.fileName,
-        caption: "*© Powered By Mʀ-Sʜᴀʙᴀɴ*"
+        caption: "*© Powered By Mᴜʜᴀᴍᴍᴀᴅ Aʜᴍᴇᴅ 𝕏 Aʙᴅᴜʟ Rᴀғᴀʏ*"
       }, { quoted: m });
 
       await conn.sendMessage(from, { react: { text: "✅", key: m.key } });
