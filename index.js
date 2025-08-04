@@ -135,23 +135,23 @@ const port = process.env.PORT || 3000;
       console.log("Failed to start auto bio:", err.message);
     }
 
-    let up = `*✨ Hello, SHABAN-MD Legend! ✨*
+    let up = `*✨ Hello, XENOVA-BOT Legend! ✨*
 
 ╭─〔 *🤖 SHABAN-MD BOT* 〕  
 ├─▸ *Simplicity. Speed. Power!*  
 ╰─➤ *Your New WhatsApp Sidekick is Here!*
 
-*❤️ Thank you for Choosing SHABAN-MD!*
+*❤️ Thank you for Choosing XENOVA-BOT!*
 
 ╭──〔 🔗 *Quick Links* 〕  
 ├─ 📢 *Join Our Channel:*  
-│   Click [**Here**](https://whatsapp.com/channel/0029VazjYjoDDmFZTZ9Ech3O) to join!  
+│   Click [**Here**]() to join!  
 ├─ ⭐ *Give Us a Star:*  
-│   Star Us [**Here**](https://github.com/MRSHABAN40/SHABAN-MD-V5)!  
+│   Star Us [**Here**](https://github.com/XENOVA-BOT/XENOVA-BOT/fork)!  
 ╰─🛠️ *Prefix:* \`${prefix}\`
 
 > _© MADE BY MR SHABAN_`;
-    conn.sendMessage(conn.user.id, { image: { url: `https://i.ibb.co/RK56DRW/shaban-md.jpg` }, caption: up });
+    conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/cidt8r.jpg` }, caption: up });
   }
 });
 
