@@ -71,7 +71,7 @@ async (conn, mek, m, { from, body, isOwner }) => {
             
             if (config.AUTO_STICKER === 'true') {
                 //if (isOwner) return;        
-                await conn.sendMessage(from,{sticker: { url : data[text]},package: 'SHABAN-SOBX-MD'},{ quoted: mek })   
+                await conn.sendMessage(from,{sticker: { url : data[text]},package: 'XENOVA-BOT'},{ quoted: mek })   
             
             }
         }
