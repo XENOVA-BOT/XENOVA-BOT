@@ -59,15 +59,15 @@ ${translatedTafsirEnglish.text}`;
     await conn.sendMessage(
       from,
       {
-        image: { url: `https://files.catbox.moe/8fy6up.jpg` },
+        image: { url: `https://files.catbox.moe/cidt8r.jpg` },
         caption: quranSurah,
         contextInfo: {
           mentionedJid: [m.sender], 
           forwardingScore: 999,  
           isForwarded: true,   
           forwardedNewsletterMessageInfo: {
-            newsletterJid: '120363358310754973@newsletter', 
-            newsletterName: 'SʜᴀʙᴀɴMᴅ', 
+            newsletterJid: '', 
+            newsletterName: ' Aʜᴍᴇᴅ 𝕏 Aʙᴅᴜʟ Rᴀғᴀʏ', 
             serverMessageId: 143
           }
         }
@@ -449,15 +449,15 @@ async (conn, mek, m, { from, quoted, body,isCmd, command, args, q, isGroup, send
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://files.catbox.moe/8fy6up.jpg` },
+                image: { url: `https://files.catbox.moe/cidt8r.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363358310754973@newsletter',
-                        newsletterName: 'SʜᴀʙᴀɴMᴅ',
+                        newsletterJid: '',
+                        newsletterName: 'Mᴜʜᴀᴍᴍᴀᴅ Aʜᴍᴇᴅ 𝕏 Aʙᴅᴜʟ Rᴀғᴀʏ',
                         serverMessageId: 143
                     }
                 }
@@ -468,15 +468,15 @@ async (conn, mek, m, { from, quoted, body,isCmd, command, args, q, isGroup, send
         await conn.sendMessage(
     from,
     {
-        image: { url: `https://files.catbox.moe/8fy6up.jpg` },
+        image: { url: `https://files.catbox.moe/cidt8r.jpg` },
         caption: dec,
         contextInfo: {
             mentionedJid: [m.sender],
             forwardingScore: 999,
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
-                newsletterJid: '120363358310754973@newsletter',
-                newsletterName: 'SʜᴀʙᴀɴMᴅ',
+                newsletterJid: '',
+                newsletterName: 'Mᴜʜᴀᴍᴍᴀᴅ Aʜᴍᴇᴅ 𝕏 Aʙᴅᴜʟ Rᴀғᴀʏ',
                 serverMessageId: 143
             }
         }
