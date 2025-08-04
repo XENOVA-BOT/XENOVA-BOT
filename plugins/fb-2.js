@@ -28,7 +28,7 @@ async (conn, mek, m, { from, args, q, reply }) => {
 
         if (!hdVideo?.downloadUrl) return reply("❌ HD video not available.");
 
-        const caption = `🎬 *Facebook Video Downloader*\n\n📖 *SHABAN-MD*`;
+        const caption = `🎬 *Facebook Video Downloader*\n\n📖 *Mᴜʜᴀᴍᴍᴀᴅ Aʜᴍᴇᴅ 𝕏 Aʙᴅᴜʟ Rᴀғᴀʏ*`;
 
         await conn.sendMessage(from, {
             video: { url: hdVideo.downloadUrl },
