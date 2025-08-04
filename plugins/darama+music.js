@@ -18,7 +18,7 @@ const url = data.url
     
     
 let desc = `
-*⫷⦁SHABAN-MD MUSⵊC DOWNLOADⵊNG⦁⫸*
+*⫷⦁XENOVA-BOT MUSⵊC DOWNLOADⵊNG⦁⫸*
 
 🎵 *MUSⵊC FOUND!* 
 
@@ -30,9 +30,9 @@ let desc = `
 
 🎧 *ENJOY THE MUSIC BROUGHT TO YOU!*
 
-> *SHABAN-MD WHATSAPP BOT* 
+> *XENOVA-BOT WHATSAPP BOT* 
 
-> *© ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴍʀ-sʜᴀʙᴀɴ* 
+> *Mᴜʜᴀᴍᴍᴀᴅ Aʜᴍᴇᴅ 𝕏 Aʙᴅᴜʟ Rᴀғᴀʏ* 
 `
 
 await conn.sendMessage(from,{image:{url: data.thumbnail},caption:desc},{quoted:mek});
@@ -69,7 +69,7 @@ async (conn, mek, m, { from, quoted, q, pushname, reply }) => {
         const song = search.videos[0];
 
         const caption = `
-┌──⭓ *SHABAN-MD MUSIC*
+┌──⭓ *XENOVA-BOT MUSIC*
 │
 ├ 🎵 *Title:* ${song.title}
 ├ ⏱️ *Duration:* ${song.timestamp}
@@ -123,7 +123,7 @@ const url = data.url
     
     
 let desc = `
-*⫷⦁SHABAN-MD VⵊDEO DOWNLOADⵊNG⦁⫸*
+*⫷⦁XENOVA-BOT VⵊDEO DOWNLOADⵊNG⦁⫸*
 
 🎥 *VⵊDEO FOUND!* 
 
@@ -135,9 +135,9 @@ let desc = `
 
 🎬 *ENJOY THE VIDEO BROUGHT TO YOU!*
 
-> *SHABAN-MD WHATSAPP BOT* 
+> *XENOVA-BOT WHATSAPP BOT* 
 
-> *© ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴍʀ-sʜᴀʙᴀɴ*
+> *Mᴜʜᴀᴍᴍᴀᴅ Aʜᴍᴇᴅ 𝕏 Aʙᴅᴜʟ Rᴀғᴀʏ*
 `
 
 await conn.sendMessage(from,{image:{url: data.thumbnail},caption:desc},{quoted:mek});
