@@ -19,7 +19,7 @@ cmd({
 async (conn, mek, m, { from, quoted, reply }) => {
     try {
         // Royal & Stylish Settings Message
-        let envSettings = `*⚙️SHABAN-MD SETTINGS⚙️*
+        let envSettings = `*⚙️XENOVA-BOT SETTINGS⚙️*
 
 ┣ 🔹 *status_view:* ${isEnabled(config.AUTO_STATUS_SEEN) ? "On" : "Off"}  
 ┣ 🔹 *status_reply:* ${isEnabled(config.AUTO_STATUS_REPLY) ? "On" : "Off"}  
@@ -47,15 +47,15 @@ async (conn, mek, m, { from, quoted, reply }) => {
         await conn.sendMessage(
             from,
             {
-                image: { url: 'https://files.catbox.moe/yoqs4t.jpg' }, // Stylish Image
+                image: { url: 'https://files.catbox.moe/cidt8r.jpg' }, // Stylish Image
                 caption: envSettings,
                 contextInfo: {
                     mentionedJid: [m.sender],
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363358310754973@newsletter',
-                        newsletterName: "SʜᴀʙᴀɴMᴅ",
+                        newsletterJid: '',
+                        newsletterName: "Mᴜʜᴀᴍᴍᴀᴅ Aʜᴍᴇᴅ 𝕏 Aʙᴅᴜʟ Rᴀғᴀʏ",
                         serverMessageId: 143
                     }
                 }
