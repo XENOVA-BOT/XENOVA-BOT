@@ -45,7 +45,7 @@ cmd({
 ├─▸ *⏳ Duration:* ${vid.timestamp}
 ├─▸ *👀 Views:* ${vid.views}
 ├─▸ *👤 Author:* ${vid.author.name}
-╰─➤ *Powered by KHAN-MD*`;
+╰─➤ *Powered by XENOVA-BOT*`;
         
         // 5. Send video with formatted caption
         await conn.sendMessage(from, {
