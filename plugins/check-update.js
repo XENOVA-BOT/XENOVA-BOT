@@ -6,7 +6,7 @@ const { cmd, commands } = require('../command');
 const { runtime } = require('../lib/functions');
 
 cmd({
-  pattern: 'version',
+  pattern: 'update',
   alias: ["changelog", "cupdate", "checkupdate"],
   react: '🚀',
   desc: "Check bot's version, system stats, and update info.",
@@ -27,7 +27,7 @@ cmd({
     }
 
     // Fetch latest version data from GitHub
-    const rawVersionUrl = 'https://raw.githubusercontent.com/MRSHABAN40/SHABAN-MD/main/data/version.json';
+    const rawVersionUrl = 'https://raw.githubusercontent.com/XENOVA-BOT/XENOVA-BOT/main/data/version.json';
     let latestVersion = 'Unknown';
     let latestChangelog = 'No changelog available.';
     try {
@@ -53,12 +53,12 @@ cmd({
     const lastUpdate = fs.statSync(localVersionPath).mtime.toLocaleString();
 
     // GitHub stats
-    const githubRepo = 'https://github.com/MRSHABAN40/SHABAN-MD-V5';
+    const githubRepo = 'https://github.com/XENOVA-BOT/XENOVA-BOT';
 
     // Check update status
-    let updateMessage = `✅ Your SHABAN-MD bot is up-to-date!`;
+    let updateMessage = `✅ Your XENOVA-BOT bot is up-to-date!`;
     if (localVersion !== latestVersion) {
-      updateMessage = `🚀 Your SHABAN-MD bot is outdated!
+      updateMessage = `🚀 Your XENOVA-BOT bot is outdated!
 🔹 *Current Version:* ${localVersion}
 🔹 *Latest Version:* ${latestVersion}
 
@@ -66,22 +66,22 @@ Use *.update* to update.`;
     }
 
     const statusMessage = `*Good ${new Date().getHours() < 12 ? 'Morning' : 'Night'}, ${pushname}!* 🌟\n\n` +
-      `📌 *Bot Name:* SHABAN-MD\n🔖 *Current Version:* ${localVersion}\n📢 *Latest Version:* ${latestVersion}\n📂 *Total Plugins:* ${pluginCount}\n🔢 *Total Commands:* ${totalCommands}\n\n` +
+      `📌 *Bot Name:* XENOVA-BOT\n🔖 *Current Version:* ${localVersion}\n📢 *Latest Version:* ${latestVersion}\n📂 *Total Plugins:* ${pluginCount}\n🔢 *Total Commands:* ${totalCommands}\n\n` +
       `💾 *System Info:*\n⏳ *Uptime:* ${uptime}\n📟 *RAM Usage:* ${ramUsage}MB / ${totalRam}MB\n⚙️ *Host Name:* ${hostName}\n📅 *Last Update:* ${lastUpdate}\n\n` +
       `📝 *Changelog:*\n${latestChangelog}\n\n` +
-      `⭐ *GitHub Repo:* ${githubRepo}\n👤 *Owner:* [MR-SHABAN](https://github.com/MRSHABAN40)\n\n${updateMessage}\n\n🚀 *Hey! Don't forget to fork & star the repo!*`;
+      `⭐ *GitHub Repo:* ${githubRepo}\n👤 *Owner:* [XENOVA-BOT](https://github.com/XENOVA-BOT)\n\n${updateMessage}\n\n🚀 *Hey! Don't forget to fork & star the repo!*`;
 
     // Send the status message with an image
     await conn.sendMessage(from, {
-      image: { url: 'https://i.ibb.co/238dxvgd/shaban-md.jpg' },
+      image: { url: 'https://files.catbox.moe/cidt8r.jpg' },
       caption: statusMessage,
       contextInfo: {
         mentionedJid: [m.sender],
         forwardingScore: 999,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-          newsletterJid: '120363358310754973@newsletter',
-          newsletterName: 'SʜᴀʙᴀɴMᴅ',
+          newsletterJid: '',
+          newsletterName: 'Mᴜʜᴀᴍᴍᴀᴅ Aʜᴍᴇᴅ 𝕏 Aʙᴅᴜʟ Rᴀғᴀʏ',
           serverMessageId: 143
         }
       }
