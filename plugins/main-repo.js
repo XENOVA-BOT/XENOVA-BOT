@@ -11,7 +11,7 @@ cmd({
     filename: __filename,
 },
 async (conn, mek, m, { from, reply }) => {
-    const githubRepoURL = 'https://github.com/MRSHABAN40/SHABAN-MD-V5';
+    const githubRepoURL = 'https://github.com/XENOVA-BOT/XENOVA-BOT';
 
     try {
         // Extract username and repo name from the URL
@@ -38,8 +38,8 @@ async (conn, mek, m, { from, reply }) => {
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363358310754973@newsletter',
-                    newsletterName: 'SʜᴀʙᴀɴMᴅ',
+                    newsletterJid: '',
+                    newsletterName: 'Mᴜʜᴀᴍᴍᴀᴅ Aʜᴍᴇᴅ 𝕏 Aʙᴅᴜʟ Rᴀғᴀʏ',
                     serverMessageId: 143
                 }
             }
