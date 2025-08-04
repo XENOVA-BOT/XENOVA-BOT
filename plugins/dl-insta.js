@@ -25,7 +25,7 @@ async (conn, mek, m, { from, args, q, reply }) => {
 
         if (!media || !media.url) return reply("❌ No valid media found in the response.");
 
-        const caption = `🎬 *Downloaded Media*\n\n🌐 *Type:* ${media.type}\n📁 *Extension:* ${media.ext || 'unknown'}\n🔗 *Source:* SHABAN-MD`;
+        const caption = `🎬 *Downloaded Media*\n\n🌐 *Type:* ${media.type}\n📁 *Extension:* ${media.ext || 'unknown'}\n🔗 *Source:* Mᴜʜᴀᴍᴍᴀᴅ Aʜᴍᴇᴅ 𝕏 Aʙᴅᴜʟ Rᴀғᴀʏ`;
 
         const sendOptions = {
             caption,
