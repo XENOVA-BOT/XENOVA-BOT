@@ -91,7 +91,7 @@ async (conn, mek, m, { from, q, reply }) => {
 ┇๏ *Views*    –  ${vid.views}
 ┇๏ *Author*   –  ${vid.author.name}
 ╰━━❑━⪼
-> *© Powered By KHAN-MD ♡*`;
+> *© Powered By XENOVA-BOT ♡*`;
 
         /* 4️⃣  Send thumbnail + details */
         await conn.sendMessage(from,
@@ -153,7 +153,7 @@ cmd({
 ┇๏ *Views*    –  ${vid.views}
 ┇๏ *Author*   –  ${vid.author.name}
 ╰━━❑━⪼
-> *Powered By KHAN-MD*`;
+> *Powered By XENOVA-BOT*`;
 
         // 5. Send thumbnail first
         await conn.sendMessage(from, 
