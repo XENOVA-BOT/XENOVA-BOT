@@ -88,7 +88,7 @@ async (conn, mek, m, { from, sender, reply }) => {
         const cpuUsage = getCPUUsage();
         const diskUsage = getDiskUsage();
 
-        const status = `*📡 SHABAN MD V5*
+        const status = `*📡 XENOVA-BOT*
 
 ✅ *Status:* Active  
 👑 *Owner:* ${config.OWNER_NAME}  
