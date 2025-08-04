@@ -34,7 +34,7 @@ const yt = await ytsearch(q);
 ┇๏ *Views* -  ${yts.views}
 ┇๏ *Author* -  ${yts.author.name} 
 ╰━━❑━⪼
-> *© Pᴏᴡᴇʀᴇᴅ Bʏ KHAN-MD ♡*`;
+> *© Pᴏᴡᴇʀᴇᴅ Bʏ XENOVA-BOT ♡*`;
 
 
 
