@@ -29,7 +29,7 @@ cmd({
     await conn.sendMessage(from, {
       video: { url: data.result.url },
       mimetype: "video/mp4",
-      caption: `📥 *Capcut Template Downloaded SHABAN-MD*\n🎥 *Title:* ${data.result.title}\n📏 *Size:* ${data.result.size}`
+      caption: `📥 *Capcut Template Downloaded Mᴜʜᴀᴍᴍᴀᴅ Aʜᴍᴇᴅ 𝕏 Aʙᴅᴜʟ Rᴀғᴀʏ*\n🎥 *Title:* ${data.result.title}\n📏 *Size:* ${data.result.size}`
     }, { quoted: m });
 
   } catch (error) {
