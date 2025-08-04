@@ -70,7 +70,7 @@ cmd({
     // Send the processed image
     await client.sendMessage(message.chat, {
       image: fs.readFileSync(outputPath),
-      caption: "Background removed successfully! SHABAN-MD",
+      caption: "Background removed successfully! XENOVA-BOT",
     }, { quoted: message });
 
     // Clean up
