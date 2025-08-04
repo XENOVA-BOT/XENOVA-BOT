@@ -1,8 +1,8 @@
 {
-  "name": "SHABAN-MD",
-  "description": "Javascript WhatsApp bot made by 𝐌𝐑 𝐒𝐇𝐀𝐁𝐀𝐍",
-  "logo": "https://i.ibb.co/mCfPfmJL/shaban-md.jpg",
-  "keywords": ["SHABAN-MD"],
+  "name": "XENOVA-BOT",
+  "description": "Javascript WhatsApp bot made by Mᴜʜᴀᴍᴍᴀᴅ Aʜᴍᴇᴅ 𝕏 Aʙᴅᴜʟ Rᴀғᴀʏ",
+  "logo": "https://files.catbox.moe/cidt8r.jpg",
+  "keywords": ["XENOVA-BOT"],
   "success_url": "/",
 
     "stack": "container",
@@ -16,13 +16,13 @@
     "STICKER_NAME": {
       "description": "type your sticker pack name.",
       "required": false,
-      "value": "SHABAN-MD︎"
+      "value": "XENOVA-BOT"
     },
     
     "MENU_IMAGE_URL": {
       "description": "add url for mention reply and menu if want.",
       "required": true,
-      "value": "https://i.ibb.co/j9G5tmNM/shaban-md.jpg"
+      "value": "https://files.catbox.moe/cidt8r.jpg"
     }, 
       
     "PREFIX": {
@@ -91,14 +91,14 @@
     "AUTO_STATUS_MSG": {
       "description": "Type custom message on status reply",
       "required": true,
-      "value": "*SᴇᴇN YᴏᴜʀE SᴛᴀᴛᴜS JᴜsT NᴏW Sʜᴀʙᴀɴ-Mᴅ 𓅓*"
+      "value": "*SᴇᴇN YᴏᴜʀE SᴛᴀᴛᴜS JᴜsT NᴏW XENOVA-BOT𓅓*"
    
      }, 
 
     "BOT_NAME": {
       "description": "Type here the bot name.",
       "required": false,
-      "value": "SHABAN-MD V5"
+      "value": "XENOVA-BOT"
 
      },
      
