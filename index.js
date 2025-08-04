@@ -137,7 +137,7 @@ const port = process.env.PORT || 3000;
 
     let up = `*✨ Hello, XENOVA-BOT Legend! ✨*
 
-╭─〔 *🤖 SHABAN-MD BOT* 〕  
+╭─〔 *🤖 XENOVA-BOT* 〕  
 ├─▸ *Simplicity. Speed. Power!*  
 ╰─➤ *Your New WhatsApp Sidekick is Here!*
 
@@ -147,7 +147,7 @@ const port = process.env.PORT || 3000;
 ├─ 📢 *Join Our Channel:*  
 │   Click [**Here**]() to join!  
 ├─ ⭐ *Give Us a Star:*  
-│   Star Us [**Here**](https://github.com/XENOVA-BOT/XENOVA-BOT/fork)!  
+│   Star Us [*Here*](https://github.com/XENOVA-BOT/XENOVA-BOT/fork)!  
 ╰─🛠️ *Prefix:* \`${prefix}\`
 
 > _© MADE BY MR SHABAN_`;
