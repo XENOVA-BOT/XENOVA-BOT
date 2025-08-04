@@ -45,8 +45,8 @@ async (conn, mek, m, { from, args, q, reply, pushname }) => {
 🎶 *Type:* ${type}
 ⏱️ *Duration:* ${duration}
 
-> *DOWNLOADED BY SHABAN-MD*
-> *© CREATED BY MR-SHABAN*
+> *DOWNLOADED BY XENOVA-BOT*
+> *© CREATED BY Mᴜʜᴀᴍᴍᴀᴅ Aʜᴍᴇᴅ 𝕏 Aʙᴅᴜʟ Rᴀғᴀʏ*
 `.trim();
 
         // Send cover image with track info
