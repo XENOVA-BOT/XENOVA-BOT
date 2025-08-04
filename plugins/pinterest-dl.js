@@ -27,13 +27,13 @@ cmd({
         const media = response.data.BK9;
         
         // Prepare the caption
-        const desc = `*SHABAN-MD*
+        const desc = `*XENOVA-BOT*
 
 *PINS DOWNLOADER*
 ╭━━❐━⪼
 ┇๏ *Owner* - ${response.data.owner}
 ╰━━❑━⪼
-> *© Pᴏᴡᴇʀᴇᴅ Bʏ Sʜᴀʙᴀɴ-Mᴅ ♡*`;
+> *Mᴜʜᴀᴍᴍᴀᴅ Aʜᴍᴇᴅ 𝕏 Aʙᴅᴜʟ Rᴀғᴀʏ*`;
 
         // Check if there are any media items
         if (media.length > 0) {
