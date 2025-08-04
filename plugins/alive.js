@@ -109,15 +109,15 @@ __________________________________
 ${config.DESCRIPTION}`;
 
         await conn.sendMessage(from, {
-            image: { url: "https://i.ibb.co/nqRfh0SB/shaban-md.jpg" },
+            image: { url: "https://files.catbox.moe/cidt8r.jpg" },
             caption: status,
             contextInfo: {
                 mentionedJid: [m.sender],
                 forwardingScore: 1000,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363358310754973@newsletter',
-                    newsletterName: 'MR-SHABAN⁴⁰',
+                    newsletterJid: '',
+                    newsletterName: 'XENOVA-BOT',
                     serverMessageId: 143
                 }
             }
