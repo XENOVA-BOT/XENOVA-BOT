@@ -12,6 +12,21 @@ cmd({
 async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
     try {
         let dec = `╭━❮ *DOWNLOAD CMD* ❯━┈⊷
+        │
+│ *🛠️ BOT INFORMATION*
+│ • 🤖 Bot Name: ${config.BOT_NAME}
+│ • 👑 Owner: ${config.OWNER_NAME}
+│ • ⚙️ Prefix: [${config.PREFIX}]
+│ • 🌐 Platform: Heroku
+│ • 📦 Version: 4.0.0
+│ • 🕒 Runtime: ${runtime(process.uptime())}
+│
+│ *📊 COMMAND STATS*
+│ • 📜 Total Commands: ${totalCommands}
+│ • 🔄 Total Aliases: ${aliasCount}
+│ • 🗂️ Categories: ${categories.length}
+│
+╰────────────────
 ┃▸
 ┃▸📄 COMMAND: .play
 ┃▸❕ Download Audio from yt
